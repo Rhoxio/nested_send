@@ -3,7 +3,7 @@ An extension for Ruby's `Object` object to allow for nested send functionality u
 
 This makes it possible to access deep attributes using `send` without having to establish your own set of recursion and attribute checking.
 
-Currently, there is no support for method arguments. You will not be able to use: `@object.nested_send("join('')")` for example. 
+Currently, there is no support for method arguments. You will not be able to use: `@object.nested_send("join('')")` for example. This will be coming at a slightly later date when I have the time to update it. 
 
 However, you can chain for as long as you like otherwise: `@object.nested_send("to_sym.to_s.to_sym.to_s")` and such.
 
