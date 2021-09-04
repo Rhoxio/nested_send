@@ -50,7 +50,7 @@ end
 @object.nested_send("traits[:age]")
 # => 30
 
-# Works with strigified hash keys
+# Works with stringified hash keys
 @object.nested_send("preferences['email']")
 # => true
 ```
