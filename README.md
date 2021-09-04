@@ -19,6 +19,8 @@ However, you can chain for as long as you like otherwise: `@object.nested_send("
 
 ### Examples
 ```ruby
+require 'nested_send'
+
 class TestingObject
   attr_accessor :name, :books, :traits, :preferences
 
