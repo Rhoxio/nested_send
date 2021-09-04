@@ -7,6 +7,16 @@ Currently, there is no support for method arguments. You will not be able to use
 
 However, you can chain for as long as you like otherwise: `"Dog".to_sym.to_s.to_sym.to_s` and such.
 
+### Installation
+##### Gemfile:  
+`gem 'nested_send'`  
+
+##### Local:
+`gem install nested_send`
+
+### Usage:  
+`require 'nested_send'`
+
 ### Examples
 ```ruby
 class TestingObject
