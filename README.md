@@ -53,4 +53,8 @@ end
 # Works with stringified hash keys
 @object.nested_send("preferences['email']")
 # => true
+
+# Works with methods that return self
+@object.nested_send("itself.books[-1]")
+# => "Hank the Cowdog"
 ```
