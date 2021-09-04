@@ -1,5 +1,5 @@
 # nested_send
-A gem for Ruby that extends Ruby's `Object` to allow for send functionality using formatted strings to execute chained sends.
+An extension for Ruby's `Object` object to allow for nested send functionality using a naturally formatted string.
 
 This makes it possible to access deep attributes using `send` without having to establish your own set of recursion and attribute checking.
 
