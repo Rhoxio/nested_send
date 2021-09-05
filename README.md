@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/nested_send.svg)](https://badge.fury.io/rb/nested_send)
+
 # nested_send
 An extension for Ruby's `Object` class to allow for nested send functionality using a naturally formatted string.
 
